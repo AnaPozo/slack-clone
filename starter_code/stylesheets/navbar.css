@@ -1,0 +1,97 @@
+/* Set up navigation bar styles */
+nav {
+    display: flex;
+    background-color: #540B51;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLinks ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navLinks li {
+    margin: 0 10px;
+  }
+  
+  .navLinks img {
+    width: 100px;
+    height: auto;
+    padding: 0;
+  }
+  
+  .navLinks a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+  
+  .navLinksRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding: 5px 0;
+  }
+  
+  .navLinksRight a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+  
+  .navLinksRight button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .navLinksRight button a {
+    background-color: #540B51;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .navLinks {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .navLinksRight {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 20px;
+      padding: 0;
+    }
+  
+    .navLinksRight a {
+      margin-top: 5px;
+    }
+  }
+  

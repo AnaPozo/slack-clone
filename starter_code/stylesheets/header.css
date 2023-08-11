@@ -1,0 +1,91 @@
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #540B51;
+  }
+  
+  header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  header p1 {
+    font-size: 18px;
+    color: #ECB12F;
+    margin: 10px 0;
+  }
+  header p2 {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  /* Buttons in header */
+  
+  .email-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: #540B51;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .google-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00a0dc;
+    color: white;
+    border: 1px solid #00a0dc;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .header-image {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  .header-image img {
+    max-width: 70%;
+    height: auto;
+    padding-left: 100px;
+  }
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header div:first-child {
+      margin-bottom: 20px;
+    }
+  
+    header div:last-child {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    header div:last-child button:first-child {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
